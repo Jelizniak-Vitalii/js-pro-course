@@ -1,0 +1,57 @@
+.tableData {
+    display: none;
+}
+
+.tableData.visible {
+    display: table;
+}
+
+.navBar, .container, .searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.tableData td {
+    text-align: center;
+}
+
+thead {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button {
+    margin: 30px;
+}
+
+.notFound {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+
+
+.input {
+    border: 2px solid #808080ad;
+    height: 40px;
+    border-radius: 10px;
+    width: 240px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+#position {
+    width: 200px;
+    margin: auto;
+}

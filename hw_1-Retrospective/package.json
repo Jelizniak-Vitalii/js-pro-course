@@ -1,0 +1,27 @@
+{
+  "name": "js-lectures",
+  "version": "1.0.0",
+  "description": "The lecture book for TMS School",
+  "main": "index.js",
+  "scripts": {
+    "test-filter": "mocha ./es6/filter.test",
+    "test-counter-basic": "mocha ./es6/counter_basic.test",
+    "test-counter-chainable": "mocha ./es6/counter_chainable.test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulemanof/js-lectures.git"
+  },
+  "author": "Daniil Suleiman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sulemanof/js-lectures/issues"
+  },
+  "homepage": "https://github.com/sulemanof/js-lectures#readme",
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  }
+}
