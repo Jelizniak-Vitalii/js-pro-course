@@ -47,8 +47,8 @@ Car.prototype.calculateWay = function(kilometrs,fuel = this.fuelCapacity){
 }
 
 // First vehicule
-function Bmw (wheelRadius,name,model,year,color,maxSpeed){
-    this._super.call(this,name,model,year,color,maxSpeed)
+function Bmw (wheelRadius, ...rest){
+    this._super.call(this, rest)
     this.wheelRadius = wheelRadius;
 }
 Bmw.prototype = Object.create(Car.prototype);
@@ -62,8 +62,8 @@ Bmw.prototype.getInfoBmw = function(){
 // Second vehicule
 
 
-function Audi (voiceControl,name,model,year,color,maxSpeed){
-    this._super.call(this,name,model,year,color,maxSpeed)
+function Audi (voiceControl, ...rest){
+    this._super.call(this, rest)
     this.voiceControl = voiceControl;
 }
 Audi.prototype = Object.create(Car.prototype);
@@ -76,8 +76,8 @@ Audi.prototype.getInfoAudi = function(){
 
 // Third vehicule 
 
-function Tesla (autoPilot,name,model,year,color,maxSpeed){
-    this._super.call(this,name,model,year,color,maxSpeed)
+function Tesla (autoPilot, ...rest){
+    this._super.call(this, rest)
     this.autoPilot = autoPilot;
 }
 Tesla.prototype = Object.create(Car.prototype);
@@ -89,10 +89,10 @@ Tesla.prototype.getInfoTesla = function(){
 }
 
 
-let bmw = new Bmw (17,'bmw',320,2015,'black')
+let bmw = new Bmw(17,'bmw',320,2015,'black')
 bmw.changeColor()
 bmw.calculateWay(330,32)
-let audi = new Audi ('голосовое управление','audi','A3',2012,'white');
+let audi = new Audi('голосовое управление','audi','A3',2012,'white');
 audi.getInfoAudi()
 audi.calculateWay(250,20)
 let tesla = new Tesla('авто пилотом','Tesla','s',2018,'blue')
