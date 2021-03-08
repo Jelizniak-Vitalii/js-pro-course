@@ -1,0 +1,35 @@
+.notification{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 300px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+.block-content{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+.content{
+    width: 85%;
+}
+.close{
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+}
+.choosing{
+    display: flex;
+    justify-content: center;
+}
+.block-checkbox{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.button-left,.button-right{
+    width: 20px;
+    height: 20px;
+    background-color: antiquewhite;
+}
