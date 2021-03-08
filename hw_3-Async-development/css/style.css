@@ -1,0 +1,67 @@
+body{
+    background-image: url('./../img/fog-1535201_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+}
+.weather{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 100px;
+    color: darkslateblue;
+}
+.form_search-input{
+    padding: 12px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.form_button{
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.main{
+    display: flex;
+}
+.content{
+    margin-top: 70px;
+    text-align: center;
+    min-width: 700px;
+    height: 400px;
+    opacity: 0.5;
+    border-radius: 50px;
+    background: rgb(132,236,255);
+    background: linear-gradient(90deg, rgba(132,236,255,1) 0%, rgba(161,242,255,1) 0%, rgba(161,242,255,1) 100%);
+}
+.content_country{
+    padding-right: 30px;
+    font-size: 40px;
+}
+.content_city{
+    font-size: 40px;
+}
+.content_temperature{
+    font-size: 30px;
+}
+.content_speed{
+    margin-right: 40px;
+    font-size: 25px;
+}
+.content_humidity{
+    font-size: 25px;
+}
+.content_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 60px;
+}
