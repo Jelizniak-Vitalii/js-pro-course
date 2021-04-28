@@ -1,0 +1,10 @@
+.form{
+    width: 500px;
+    margin: 5% auto;
+}
+.form__input{
+    width:95%;
+    padding: 10px;
+    border-radius: 10px;
+    outline:none;
+}
