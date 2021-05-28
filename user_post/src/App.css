@@ -1,0 +1,14 @@
+.main{
+  text-align:center;
+}
+.block__posts{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+.posts__button{
+  margin-bottom: 100px;
+  padding: 10px 15px;
+  border-radius:10px;
+}
